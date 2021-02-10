@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RL Sales | Giveaway</title><link rel="icon" href="favicon.ico"><script defer="defer" src="js/index.bundle.js"></script><link href="css/index.067ba26060a1df6fabab.css" rel="stylesheet"></head><body><style>@keyframes loader {
+
+            0%,
+            10%,
+            100% {
+                width: 80px;
+                height: 80px;
+            }
+
+            65% {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        @keyframes loaderBlock {
+
+            0%,
+            30% {
+                transform: rotate(0);
+            }
+
+            55% {
+                background-color: #FFF;
+            }
+
+            100% {
+                transform: rotate(90deg);
+
+            }
+        }
+
+        @keyframes loaderBlockInverse {
+
+            0%,
+            20% {
+                transform: rotate(0);
+            }
+
+            55% {
+                background-color: #000;
+            }
+
+            100% {
+                transform: rotate(-90deg);
+            }
+        }
+
+        .loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80px;
+            height: 80px;
+            transform: translate(-50%, -50%) rotate(45deg) translate3d(0, 0, 0) scale(1.65);
+            animation: loader 1.2s infinite ease-in-out;
+            z-index: 3;
+        }
+
+        .loader span {
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: #7b00e4;
+            animation: loaderBlock 1.2s infinite ease-in-out both;
+        }
+
+        .loader span:nth-child(1) {
+            top: 0;
+            left: 0;
+        }
+
+        .loader span:nth-child(2) {
+            top: 0;
+            right: 0;
+            animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+        }
+
+        .loader span:nth-child(3) {
+            bottom: 0;
+            left: 0;
+            animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+        }
+
+        .loader span:nth-child(4) {
+            bottom: 0;
+            right: 0;
+        }</style><div data-loader class="loader"><span></span> <span></span> <span></span> <span></span></div><picture data-appear="true" style="opacity: 0;"><source type="image/webp" srcset="images/background.webp" alt="" class="body-background" width="641" height="701"/><img src="images/background.jpg" alt="" class="body-background" width="2560" height="2800"/></picture><div data-appear="true" style="position: absolute;left:0;top:0;height:100%;width:100%;opacity: 0;"><div data-relative-input="true" id="parallax-scene" class="background"><div data-depth="0.17" class="left-cars"><picture><source type="image/webp" srcset="images/left-car.webp" alt=""/><img style="transform: translate(16%, -16%) scale(1.5)" src="images/left-car.png" alt="" width="641" height="701"/></picture></div><div data-depth="0.05" class="right-cars"><picture><source type="image/webp" srcset="images/right-car.webp" alt=""/><img style="transform: rotateX(180deg) translate(2%, 1%)" src="images/right-car.png" alt="" width="641" height="701"/></picture></div></div></div><div style="position: relative; z-index: 1;" class="container"><div data-appear="true" style="opacity: 0" class="row timer"><div class="col col-lg-3 col-xl-2 timer-grade" id="hour"><div class="timer-numbers-wrapper"><div class="timer-number">0</div><div class="timer-number">0</div></div><h6 class="timer-grade-subtitle">hours</h6></div><div class="col col-lg-3 col-xl-2 timer-grade" id="min"><div class="timer-numbers-wrapper"><div class="timer-number">0</div><div class="timer-number">0</div></div><h6 class="timer-grade-subtitle">minutes</h6></div><div class="col col-lg-3 col-xl-2 timer-grade" id="sec"><div class="timer-numbers-wrapper"><div class="timer-number">0</div><div class="timer-number">0</div></div><h6 class="timer-grade-subtitle">seconds</h6></div></div><div data-appear="true" style="opacity: 0" class="row"><div class="col-lg-10 offset-lg-1"><h1 class="title">Welcome to our new Rocket League Sales site. Here you can buy credits with items and exchange your items. In order for more people to learn about our site, we started an unreal giveaway! Participate faster and tell your friends about us. Good luck everyone!</h1></div></div><div data-appear="true" style="opacity: 0" class="row"><div class="col-lg-6 offset-lg-3"><div class="prizes-container"><div class="prizes-inner"><p class="prize">1. (Alpha Reward) Gold Cap</p><p class="prize">2. Titanium White Dominus</p><p class="prize">3. Titanium White Octane</p><p class="prize">4. Titanium White Fennec</p><p class="prize">5. Black Mainframe</p><p class="prize">6. Dissolver</p><p class="prize">7. Stipple Gait</p><p class="prize">8. Heatwave</p><p class="prize">9. Tidal Stream</p><p class="prize">10-30th place-1000 credits</p></div></div></div></div><div data-appear="true" style="opacity: 0" class="row"><div class="col-lg-6 offset-lg-3"><button id="main-button" class="button button-main">Join</button></div></div></div><div class="popup-blur"><div data-visible="false" id="agree-popup" class="agree-popup popup"><div class="popup-text agree-text">Our site uses cookies to offer you a better browsing experience, enable embedded videos, analyze site traffic, personalize content, and allow advertisements. Read about how we use cookies and how you can control them by clicking "Settings." By clicking "Accept," you agree to the use of the cookies as they are currently set and are okay to continue.</div><div id="cookie-button" class="agree-button button">Accept</div></div><div data-visible="false" id="stages-popup" class="stages-popup popup"><div class="container"><div class="row"><div class="col"><div class="stages-title">To take part in giveaway please provide your contact information.</div></div></div><div class="row"><div class="col col-lg-10 offset-lg-1 stages-checkpoints-wrapper"><div class="stages-checkpoints"><div class="stages-checkpoint">1<h6 class="stages-checkpoint-subtitle">Fill in contact information</h6></div><div class="stages-checkpoint">2<h6 class="stages-checkpoint-subtitle">Wait for the end of giveaway</h6></div><div class="stages-checkpoint">3<h6 class="stages-checkpoint-subtitle">Get your prize</h6></div></div></div></div><div class="row"><div class="col col-lg-10 offset-lg-1"><input id="input-name" class="input stages-input" placeholder="Your Name"><div id="input-platform" class="input select stages-input"><div class="select-current"></div><div class="select-placeholder">Platforms</div><div class="select-list"><div class="select-option">Steam</div><div class="select-option">Epicgames</div><div class="select-option">PS4</div><div class="select-option">XBOX ONE</div><div class="select-option">Switch</div></div></div><div class="stages-input-wrapper"><input id="input-email" class="input" placeholder="Email"><div id="email-confirm" class="stages-tooltip">Confirm</div><div style="opacity: 0;" id="code-confirm" class="stages-tooltip hidden">Input Code</div></div><label for="email" class="email-label hidden wrong">Wrong email</label></div></div><div class="popup-blur"><div data-visible="false" id="mini-popup" class="mini-popup popup"><div class="code-input-wrapper"><label for="email-code" class="code-input-label">Enter the four-digit code sent to you by email</label> <input id="input-code" class="input code-input" placeholder="####"><div id="didntrecievedcode" class="stages-recieve-code hidden">Didn't receive a code?</div><div class="stage-verification-text hidden">A verification code has been sent to your email address: testadddd@test.com<br>If you don't receive it, please check your spam.</div><h6 class="code-sub-label hidden">q</h6></div><button id="stages-button" class="button stages-button">Done</button></div></div></div></div><div data-visible="false" id="finish-popup" class="finish-popup popup"><div class="popup-text">Note that you will get two letters – an automatic congratulation letter from rlsales, and one from the community manager with detailed instructions on how to acquire your prize. Our social media pages will also announce the winner...</div></div></div></body></html>
